@@ -9,7 +9,7 @@ document.body.innerHTML += `<textarea class="text_window" autofocus></textarea>`
 //document.body.insertAdjacentHTML('beforebegin', `<head><meta charset="UTF-8"></head>`);
 
 //const div = document.createElement("div");
-
+alert("!Perekluchenie yazika ne sdelano")
 
 
 let keyboard = document.createElement("div");
@@ -21,19 +21,462 @@ document.body.append(keyboard);
 //document.body.append(text_window);
 
 document.querySelector(".text_window").addEventListener('keydown', (event) => {
-    //alert(e.data);
-    document.querySelector(".key1").classList.add("active");
-    document.querySelector(".key1").classList.remove("key1");
-    document.querySelector(".text_window").innerHTML += event.key;
+    //alert(event.code);
+    if (event.key == "`") {
+        document.querySelector(".key1").classList.add("active1");
+        document.querySelector(".key1").classList.remove("key1");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "1") {
+        document.querySelector(".key2").classList.add("active2");
+        document.querySelector(".key2").classList.remove("key2");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "2") {
+        document.querySelector(".key3").classList.add("active3");
+        document.querySelector(".key3").classList.remove("key3");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "3") {
+        document.querySelector(".key4").classList.add("active4");
+        document.querySelector(".key4").classList.remove("key4");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "4") {
+        document.querySelector(".key5").classList.add("active5");
+        document.querySelector(".key5").classList.remove("key5");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "5") {
+        document.querySelector(".key6").classList.add("active6");
+        document.querySelector(".key6").classList.remove("key6");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "6") {
+        document.querySelector(".key7").classList.add("active7");
+        document.querySelector(".key7").classList.remove("key7");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "7") {
+        document.querySelector(".key8").classList.add("active8");
+        document.querySelector(".key8").classList.remove("key8");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "8") {
+        document.querySelector(".key9").classList.add("active9");
+        document.querySelector(".key9").classList.remove("key9");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "9") {
+        document.querySelector(".key10").classList.add("active10");
+        document.querySelector(".key10").classList.remove("key10");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "0") {
+        document.querySelector(".key11").classList.add("active11");
+        document.querySelector(".key11").classList.remove("key11");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "-") {
+        document.querySelector(".key12").classList.add("active12");
+        document.querySelector(".key12").classList.remove("key12");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "=") {
+        document.querySelector(".key13").classList.add("active13");
+        document.querySelector(".key13").classList.remove("key13");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "Backspace") {
+        document.querySelector(".key14").classList.add("active14");
+        document.querySelector(".key14").classList.remove("key14");
+        
+    } else if (event.key == "Tab") {
+        document.querySelector(".key15").classList.add("active15");
+        document.querySelector(".key15").classList.remove("key15");
+        
+    } else if (event.key == "q") {
+        document.querySelector(".key16").classList.add("active16");
+        document.querySelector(".key16").classList.remove("key16");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "w") {
+        document.querySelector(".key17").classList.add("active17");
+        document.querySelector(".key17").classList.remove("key17");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "e") {
+        document.querySelector(".key18").classList.add("active18");
+        document.querySelector(".key18").classList.remove("key18");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "r") {
+        document.querySelector(".key19").classList.add("active19");
+        document.querySelector(".key19").classList.remove("key19");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "t") {
+        document.querySelector(".key20").classList.add("active20");
+        document.querySelector(".key20").classList.remove("key20");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "y") {
+        document.querySelector(".key21").classList.add("active21");
+        document.querySelector(".key21").classList.remove("key21");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "u") {
+        document.querySelector(".key22").classList.add("active22");
+        document.querySelector(".key22").classList.remove("key22");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "i") {
+        document.querySelector(".key23").classList.add("active23");
+        document.querySelector(".key23").classList.remove("key23");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "o") {
+        document.querySelector(".key24").classList.add("active24");
+        document.querySelector(".key24").classList.remove("key24");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "p") {
+        document.querySelector(".key25").classList.add("active25");
+        document.querySelector(".key25").classList.remove("key25");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "[") {
+        document.querySelector(".key26").classList.add("active26");
+        document.querySelector(".key26").classList.remove("key26");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "]") {
+        document.querySelector(".key27").classList.add("active27");
+        document.querySelector(".key27").classList.remove("key27");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == '\\') {
+        document.querySelector(".key28").classList.add("active28");
+        document.querySelector(".key28").classList.remove("key28");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "Delete") {
+        document.querySelector(".key29").classList.add("active29");
+        document.querySelector(".key29").classList.remove("key29");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "CapsLock") {
+        document.querySelector(".key30").classList.add("active30");
+        document.querySelector(".key30").classList.remove("key30");
+        
+    } else if (event.key == "a") {
+        document.querySelector(".key31").classList.add("active31");
+        document.querySelector(".key31").classList.remove("key31");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "s") {
+        document.querySelector(".key32").classList.add("active32");
+        document.querySelector(".key32").classList.remove("key32");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "d") {
+        document.querySelector(".key33").classList.add("active33");
+        document.querySelector(".key33").classList.remove("key33");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "f") {
+        document.querySelector(".key34").classList.add("active34");
+        document.querySelector(".key34").classList.remove("key34");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "g") {
+        document.querySelector(".key35").classList.add("active35");
+        document.querySelector(".key35").classList.remove("key35");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "h") {
+        document.querySelector(".key36").classList.add("active36");
+        document.querySelector(".key36").classList.remove("key36");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "j") {
+        document.querySelector(".key37").classList.add("active37");
+        document.querySelector(".key37").classList.remove("key37");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "k") {
+        document.querySelector(".key38").classList.add("active38");
+        document.querySelector(".key38").classList.remove("key38");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "l") {
+        document.querySelector(".key39").classList.add("active39");
+        document.querySelector(".key39").classList.remove("key39");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == ";") {
+        document.querySelector(".key40").classList.add("active40");
+        document.querySelector(".key40").classList.remove("key40");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "'") {
+        document.querySelector(".key41").classList.add("active41");
+        document.querySelector(".key41").classList.remove("key41");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "Enter") {
+        document.querySelector(".key42").classList.add("active42");
+        document.querySelector(".key42").classList.remove("key42");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "Shift" && event.code !== "ShiftRight" ) {
+        document.querySelector(".key43").classList.add("active43");
+        document.querySelector(".key43").classList.remove("key43");
+        
+    } else if (event.key == "z") {
+        document.querySelector(".key44").classList.add("active44");
+        document.querySelector(".key44").classList.remove("key44");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "x") {
+        document.querySelector(".key45").classList.add("active45");
+        document.querySelector(".key45").classList.remove("key45");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "c") {
+        document.querySelector(".key46").classList.add("active46");
+        document.querySelector(".key46").classList.remove("key46");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "v") {
+        document.querySelector(".key47").classList.add("active47");
+        document.querySelector(".key47").classList.remove("key47");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "b") {
+        document.querySelector(".key48").classList.add("active48");
+        document.querySelector(".key48").classList.remove("key48");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "n") {
+        document.querySelector(".key49").classList.add("active49");
+        document.querySelector(".key49").classList.remove("key49");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "m") {
+        document.querySelector(".key50").classList.add("active50");
+        document.querySelector(".key50").classList.remove("key50");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == ",") {
+        document.querySelector(".key51").classList.add("active51");
+        document.querySelector(".key51").classList.remove("key51");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == ".") {
+        document.querySelector(".key52").classList.add("active52");
+        document.querySelector(".key52").classList.remove("key52");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "/") {
+        document.querySelector(".key53").classList.add("active53");
+        document.querySelector(".key53").classList.remove("key53");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.key == "ArrowUp") {
+        document.querySelector(".key54").classList.add("active54");
+        document.querySelector(".key54").classList.remove("key54");
+        
+    } else if (event.code == "ShiftRight") {
+        document.querySelector(".key55").classList.add("active55");
+        document.querySelector(".key55").classList.remove("key55");
+        
+    } else if (event.key == "Control" && event.code !== "ControlRight") {
+        document.querySelector(".key56").classList.add("active56");
+        document.querySelector(".key56").classList.remove("key56");
+        
+    } else if (event.key == "Meta") {
+        document.querySelector(".key57").classList.add("active57");
+        document.querySelector(".key57").classList.remove("key57");
+        
+    } else if (event.key == "Alt" && event.code !== "AltRight") {
+        document.querySelector(".key58").classList.add("active58");
+        document.querySelector(".key58").classList.remove("key58");
+        
+    } else if (event.key == " ") {
+        document.querySelector(".key59").classList.add("active59");
+        document.querySelector(".key59").classList.remove("key59");
+        document.querySelector(".text_window").innerHTML += event.key;
+    } else if (event.code == "AltRight") {
+        document.querySelector(".key60").classList.add("active60");
+        document.querySelector(".key60").classList.remove("key60");
+        
+    } else if (event.key == "ArrowLeft") {
+        document.querySelector(".key61").classList.add("active61");
+        document.querySelector(".key61").classList.remove("key61");
+        
+    } else if (event.key == "ArrowDown") {
+        document.querySelector(".key62").classList.add("active62");
+        document.querySelector(".key62").classList.remove("key62");
+        
+    } else if (event.key == "ArrowRight") {
+        document.querySelector(".key63").classList.add("active63");
+        document.querySelector(".key63").classList.remove("key63");
+       
+    } else if (event.code == "ControlRight") {
+        document.querySelector(".key64").classList.add("active64");
+        document.querySelector(".key64").classList.remove("key64");
+    }
+    
+    
     //document.querySelector(".key1").classList.remove("active");
 });
 
 document.querySelector(".text_window").addEventListener('keyup', (event) => {
-    //alert(e.data);
-    //document.querySelector(".key1").classList.add("active");
-    document.querySelector(".text_window").innerHTML += event.key;
-    document.querySelector(".active").classList.add("key1");
-    document.querySelector(".key1").classList.remove("active");
+    if (event.key == "`") {
+        document.querySelector(".active1").classList.add("key1");
+        document.querySelector(".key1").classList.remove("active1");
+    } else if (event.key == "1") {
+        document.querySelector(".active2").classList.add("key2");
+        document.querySelector(".key2").classList.remove("active2");
+    } else if (event.key == "2") {
+        document.querySelector(".active3").classList.add("key3");
+        document.querySelector(".key3").classList.remove("active3");
+    } else if (event.key == "3") {
+        document.querySelector(".active4").classList.add("key4");
+        document.querySelector(".key4").classList.remove("active4");
+    } else if (event.key == "4") {
+        document.querySelector(".active5").classList.add("key5");
+        document.querySelector(".key5").classList.remove("active5");
+    } else if (event.key == "5") {
+        document.querySelector(".active6").classList.add("key6");
+        document.querySelector(".key6").classList.remove("active6");
+    } else if (event.key == "6") {
+        document.querySelector(".active7").classList.add("key7");
+        document.querySelector(".key7").classList.remove("active7");
+    } else if (event.key == "7") {
+        document.querySelector(".active8").classList.add("key8");
+        document.querySelector(".key8").classList.remove("active8");
+    } else if (event.key == "8") {
+        document.querySelector(".active9").classList.add("key9");
+        document.querySelector(".key9").classList.remove("active9");
+    } else if (event.key == "9") {
+        document.querySelector(".active10").classList.add("key10");
+        document.querySelector(".key10").classList.remove("active10");
+    } else if (event.key == "0") {
+        document.querySelector(".active11").classList.add("key11");
+        document.querySelector(".key11").classList.remove("active11");
+    } else if (event.key == "-") {
+        document.querySelector(".active12").classList.add("key12");
+        document.querySelector(".key12").classList.remove("active12");
+    } else if (event.key == "=") {
+        document.querySelector(".active13").classList.add("key13");
+        document.querySelector(".key13").classList.remove("active13");
+    } else if (event.key == "Backspace") {
+        document.querySelector(".active14").classList.add("key14");
+        document.querySelector(".key14").classList.remove("active14");
+    } else if (event.key == "Tab") {
+        document.querySelector(".active15").classList.add("key15");
+        document.querySelector(".key15").classList.remove("active15");
+    } else if (event.key == "q") {
+        document.querySelector(".active16").classList.add("key16");
+        document.querySelector(".key16").classList.remove("active16");
+    } else if (event.key == "w") {
+        document.querySelector(".active17").classList.add("key17");
+        document.querySelector(".key17").classList.remove("active17");
+    } else if (event.key == "e") {
+        document.querySelector(".active18").classList.add("key18");
+        document.querySelector(".key18").classList.remove("active18");
+    } else if (event.key == "r") {
+        document.querySelector(".active19").classList.add("key19");
+        document.querySelector(".key19").classList.remove("active19");
+    } else if (event.key == "t") {
+        document.querySelector(".active20").classList.add("key20");
+        document.querySelector(".key20").classList.remove("active20");
+    } else if (event.key == "y") {
+        document.querySelector(".active21").classList.add("key21");
+        document.querySelector(".key21").classList.remove("active21");
+    } else if (event.key == "u") {
+        document.querySelector(".active22").classList.add("key22");
+        document.querySelector(".key22").classList.remove("active22");
+    } else if (event.key == "i") {
+        document.querySelector(".active23").classList.add("key23");
+        document.querySelector(".key23").classList.remove("active23");
+    } else if (event.key == "o") {
+        document.querySelector(".active24").classList.add("key24");
+        document.querySelector(".key24").classList.remove("active24");
+    } else if (event.key == "p") {
+        document.querySelector(".active25").classList.add("key25");
+        document.querySelector(".key25").classList.remove("active25");
+    } else if (event.key == "[") {
+        document.querySelector(".active26").classList.add("key26");
+        document.querySelector(".key26").classList.remove("active26");
+    } else if (event.key == "]") {
+        document.querySelector(".active27").classList.add("key27");
+        document.querySelector(".key27").classList.remove("active27");
+    } else if (event.key == "\\") {
+        document.querySelector(".active28").classList.add("key28");
+        document.querySelector(".key28").classList.remove("active28");
+    } else if (event.key == "Delete") {
+        document.querySelector(".active29").classList.add("key29");
+        document.querySelector(".key29").classList.remove("active29");
+    } else if (event.key == "CapsLock") {
+        document.querySelector(".active30").classList.add("key30");
+        document.querySelector(".key30").classList.remove("active30");
+    } else if (event.key == "a") {
+        document.querySelector(".active31").classList.add("key31");
+        document.querySelector(".key31").classList.remove("active31");
+    } else if (event.key == "s") {
+        document.querySelector(".active32").classList.add("key32");
+        document.querySelector(".key32").classList.remove("active32");
+    } else if (event.key == "d") {
+        document.querySelector(".active33").classList.add("key33");
+        document.querySelector(".key33").classList.remove("active33");
+    } else if (event.key == "f") {
+        document.querySelector(".active34").classList.add("key34");
+        document.querySelector(".key34").classList.remove("active34");
+    } else if (event.key == "g") {
+        document.querySelector(".active35").classList.add("key35");
+        document.querySelector(".key35").classList.remove("active35");
+    } else if (event.key == "h") {
+        document.querySelector(".active36").classList.add("key36");
+        document.querySelector(".key36").classList.remove("active36");
+    } else if (event.key == "j") {
+        document.querySelector(".active37").classList.add("key37");
+        document.querySelector(".key37").classList.remove("active37");
+    } else if (event.key == "k") {
+        document.querySelector(".active38").classList.add("key38");
+        document.querySelector(".key38").classList.remove("active38");
+    } else if (event.key == "l") {
+        document.querySelector(".active39").classList.add("key39");
+        document.querySelector(".key39").classList.remove("active39");
+    } else if (event.key == ";") {
+        document.querySelector(".active40").classList.add("key40");
+        document.querySelector(".key40").classList.remove("active40");
+    } else if (event.key == "'") {
+        document.querySelector(".active41").classList.add("key41");
+        document.querySelector(".key41").classList.remove("active41");
+    } else if (event.key == "Enter") {
+        document.querySelector(".active42").classList.add("key42");
+        document.querySelector(".key42").classList.remove("active42");
+    } else if (event.key == "Shift" && event.code !== "ShiftRight") {
+        document.querySelector(".active43").classList.add("key43");
+        document.querySelector(".key43").classList.remove("active43");
+    } else if (event.key == "z") {
+        document.querySelector(".active44").classList.add("key44");
+        document.querySelector(".key44").classList.remove("active44");
+    } else if (event.key == "x") {
+        document.querySelector(".active45").classList.add("key45");
+        document.querySelector(".key45").classList.remove("active45");
+    } else if (event.key == "c") {
+        document.querySelector(".active46").classList.add("key46");
+        document.querySelector(".key46").classList.remove("active46");
+    } else if (event.key == "v") {
+        document.querySelector(".active47").classList.add("key47");
+        document.querySelector(".key47").classList.remove("active47");
+    } else if (event.key == "b") {
+        document.querySelector(".active48").classList.add("key48");
+        document.querySelector(".key48").classList.remove("active48");
+    } else if (event.key == "n") {
+        document.querySelector(".active49").classList.add("key49");
+        document.querySelector(".key49").classList.remove("active49");
+    } else if (event.key == "m") {
+        document.querySelector(".active50").classList.add("key50");
+        document.querySelector(".key50").classList.remove("active50");
+    } else if (event.key == ",") {
+        document.querySelector(".active51").classList.add("key51");
+        document.querySelector(".key51").classList.remove("active51");
+    } else if (event.key == ".") {
+        document.querySelector(".active52").classList.add("key52");
+        document.querySelector(".key52").classList.remove("active52");
+    } else if (event.key == "/") {
+        document.querySelector(".active53").classList.add("key53");
+        document.querySelector(".key53").classList.remove("active53");
+    } else if (event.key == "ArrowUp") {
+        document.querySelector(".active54").classList.add("key54");
+        document.querySelector(".key54").classList.remove("active54");
+    } else if (event.code == "ShiftRight") {
+        document.querySelector(".active55").classList.add("key55");
+        document.querySelector(".key55").classList.remove("active55");
+    } else if (event.key == "Control" && event.code !== "ControlRight") {
+        document.querySelector(".active56").classList.add("key56");
+        document.querySelector(".key56").classList.remove("active56");
+    } else if (event.key == "Meta") {
+        document.querySelector(".active57").classList.add("key57");
+        document.querySelector(".key57").classList.remove("active57");
+    } else if (event.key == "Alt" && event.code !== "AltRight") {
+        document.querySelector(".active58").classList.add("key58");
+        document.querySelector(".key58").classList.remove("active58");
+    } else if (event.key == " ") {
+        document.querySelector(".active59").classList.add("key59");
+        document.querySelector(".key59").classList.remove("active59");
+    } else if (event.code == "AltRight") {
+        document.querySelector(".active60").classList.add("key60");
+        document.querySelector(".key60").classList.remove("active60");
+    } else if (event.key == "ArrowLeft") {
+        document.querySelector(".active61").classList.add("key61");
+        document.querySelector(".key61").classList.remove("active61");
+    } else if (event.key == "ArrowDown") {
+        document.querySelector(".active62").classList.add("key62");
+        document.querySelector(".key62").classList.remove("active62");
+    } else if (event.key == "ArrowRight") {
+        document.querySelector(".active63").classList.add("key63");
+        document.querySelector(".key63").classList.remove("active63");
+    } else if (event.code == "ControlRight") {
+        document.querySelector(".active64").classList.add("key64");
+        document.querySelector(".key64").classList.remove("active64");
+    } 
 });
 
 let key1 = document.createElement("div");
@@ -313,10 +756,10 @@ B_Key27.addEventListener("click", A_Key27);
 let key28 = document.createElement("div");
 key28.className = "key28";
 document.querySelector(".keyboard").append(key28);
-key28.innerHTML = `\``;
+key28.innerHTML = `\/`;
 const B_Key28 = document.querySelector(".key28");
 const A_Key28 = () => {
-    document.querySelector(".text_window").innerHTML += `\``;
+    document.querySelector(".text_window").innerHTML += `\/`;
 };
 B_Key28.addEventListener("click", A_Key28);
 
@@ -337,7 +780,7 @@ document.querySelector(".keyboard").append(key30);
 key30.innerHTML = "CapsLock";
 const B_Key30 = document.querySelector(".key30");
 const A_Key30 = () => {
-    document.querySelector(".text_window").innerHTML += "AAA";
+    document.querySelector(".text_window").innerHTML += "";
 };
 B_Key30.addEventListener("click", A_Key30);
 
@@ -467,7 +910,7 @@ document.querySelector(".keyboard").append(key43);
 key43.innerHTML = "Shift";
 const B_Key43 = document.querySelector(".key43");
 const A_Key43 = () => {
-    document.querySelector(".text_window").innerHTML += "ShiftAAA";
+    document.querySelector(".text_window").innerHTML += "";
 };
 B_Key43.addEventListener("click", A_Key43);
 
@@ -587,7 +1030,7 @@ document.querySelector(".keyboard").append(key55);
 key55.innerHTML = "Shift";
 const B_Key55 = document.querySelector(".key55");
 const A_Key55 = () => {
-    document.querySelector(".text_window").innerHTML += "Shiftright";
+    document.querySelector(".text_window").innerHTML += "";
 };
 B_Key55.addEventListener("click", A_Key55);
 
@@ -597,7 +1040,7 @@ document.querySelector(".keyboard").append(key56);
 key56.innerHTML = "Ctrl";
 const B_Key56 = document.querySelector(".key56");
 const A_Key56 = () => {
-    document.querySelector(".text_window").innerHTML += "Ctrlleft";
+    document.querySelector(".text_window").innerHTML += "";
 };
 B_Key56.addEventListener("click", A_Key56);
 
@@ -607,7 +1050,7 @@ document.querySelector(".keyboard").append(key57);
 key57.innerHTML = "Win";
 const B_Key57 = document.querySelector(".key57");
 const A_Key57 = () => {
-    document.querySelector(".text_window").innerHTML += "Winleft";
+    document.querySelector(".text_window").innerHTML += "";
 };
 B_Key57.addEventListener("click", A_Key57);
 
@@ -617,7 +1060,7 @@ document.querySelector(".keyboard").append(key58);
 key58.innerHTML = "Alt";
 const B_Key58 = document.querySelector(".key58");
 const A_Key58 = () => {
-    document.querySelector(".text_window").innerHTML += "Altleft";
+    document.querySelector(".text_window").innerHTML += "";
 };
 B_Key58.addEventListener("click", A_Key58);
 
@@ -637,7 +1080,7 @@ document.querySelector(".keyboard").append(key60);
 key60.innerHTML = "Alt";
 const B_Key60 = document.querySelector(".key60");
 const A_Key60 = () => {
-    document.querySelector(".text_window").innerHTML += "Altright";
+    document.querySelector(".text_window").innerHTML += "";
 };
 B_Key60.addEventListener("click", A_Key60);
 
@@ -677,7 +1120,7 @@ document.querySelector(".keyboard").append(key64);
 key64.innerHTML = "Ctrl";
 const B_Key64 = document.querySelector(".key64");
 const A_Key64 = () => {
-    document.querySelector(".text_window").innerHTML += "Ctrlright";
+    document.querySelector(".text_window").innerHTML += "";
 };
 B_Key64.addEventListener("click", A_Key64);
 
