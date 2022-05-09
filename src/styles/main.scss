@@ -1,0 +1,1128 @@
+
+body {
+    position: relative;
+    width: 1024px;
+    height: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: solid 1px black;
+    background-color: #c4c4c4;
+}
+.keyboard {
+    position: absolute;
+    width: 859px;
+    height: 290px;
+    margin-top: 457px;
+    margin-left: 82px;
+    background-color: aquamarine;
+}
+.text_window {
+    position: absolute;
+    width: 750px;
+    height: 280px;
+    margin-top: 145px;
+    margin-left: 137px;
+    background-color: aliceblue;
+}
+.active {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 7px;
+    color: black;
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 7px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key1:hover {
+    background-color: aqua;
+}
+.key1:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key2 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 62px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key2:hover {
+    background-color: aqua;
+}
+.key2:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key3 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 117px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key3:hover {
+    background-color: aqua;
+}
+.key3:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key4 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 172px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key4:hover {
+    background-color: aqua;
+}
+.key4:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key5 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 227px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key5:hover {
+    background-color: aqua;
+}
+.key5:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key6 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 282px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key6:hover {
+    background-color: aqua;
+}
+.key6:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key7 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 337px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key7:hover {
+    background-color: aqua;
+}
+.key7:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key8 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 392px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key8:hover {
+    background-color: aqua;
+}
+.key8:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key9 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 447px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key9:hover {
+    background-color: aqua;
+}
+.key9:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key10 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 502px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key10:hover {
+    background-color: aqua;
+}
+.key10:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key11 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 557px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key11:hover {
+    background-color: aqua;
+}
+.key11:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key12 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 612px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key12:hover {
+    background-color: aqua;
+}
+.key12:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key13 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 667px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key13:hover {
+    background-color: aqua;
+}
+.key13:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key14 {
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    margin-top: 13px;
+    margin-left: 722px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key14:hover {
+    background-color: aqua;
+}
+.key14:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key15 {
+    position: absolute;
+    width: 65px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 7px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key15:hover {
+    background-color: aqua;
+}
+.key15:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key16 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 82px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key16:hover {
+    background-color: aqua;
+}
+.key16:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key17 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 137px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key17:hover {
+    background-color: aqua;
+}
+.key17:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key18 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 192px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key18:hover {
+    background-color: aqua;
+}
+.key18:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key19 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 247px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key19:hover {
+    background-color: aqua;
+}
+.key19:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key20 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 302px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key20:hover {
+    background-color: aqua;
+}
+.key20:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key21 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 357px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key21:hover {
+    background-color: aqua;
+}
+.key21:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key22 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 412px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key22:hover {
+    background-color: aqua;
+}
+.key22:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key23 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 467px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key23:hover {
+    background-color: aqua;
+}
+.key23:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key24 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 522px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key24:hover {
+    background-color: aqua;
+}
+.key24:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key25 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 577px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key25:hover {
+    background-color: aqua;
+}
+.key25:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key26 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 632px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key26:hover {
+    background-color: aqua;
+}
+.key26:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key27 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 687px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key27:hover {
+    background-color: aqua;
+}
+.key27:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key28 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 742px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key28:hover {
+    background-color: aqua;
+}
+.key28:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key29 {
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    margin-top: 68px;
+    margin-left: 797px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key29:hover {
+    background-color: aqua;
+}
+.key29:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key30 {
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 7px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key30:hover {
+    background-color: aqua;
+}
+.key30:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key31 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 147px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key31:hover {
+    background-color: aqua;
+}
+.key31:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key32 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 202px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key32:hover {
+    background-color: aqua;
+}
+.key32:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key33 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 257px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key33:hover {
+    background-color: aqua;
+}
+.key33:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key34 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 312px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key34:hover {
+    background-color: aqua;
+}
+.key34:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key35 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 367px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key35:hover {
+    background-color: aqua;
+}
+.key35:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key36 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 422px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key36:hover {
+    background-color: aqua;
+}
+.key36:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key37 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 477px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key37:hover {
+    background-color: aqua;
+}
+.key37:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key38 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 532px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key38:hover {
+    background-color: aqua;
+}
+.key38:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key39 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 587px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key39:hover {
+    background-color: aqua;
+}
+.key39:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key40 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 642px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key40:hover {
+    background-color: aqua;
+}
+.key40:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key41 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 697px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key41:hover {
+    background-color: aqua;
+}
+.key41:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key42 {
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    margin-top: 123px;
+    margin-left: 752px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key42:hover {
+    background-color: aqua;
+}
+.key42:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key43 {
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 7px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key43:hover {
+    background-color: aqua;
+}
+.key43:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key44 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 147px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key44:hover {
+    background-color: aqua;
+}
+.key44:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key45 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 202px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key45:hover {
+    background-color: aqua;
+}
+.key45:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key46 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 257px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key46:hover {
+    background-color: aqua;
+}
+.key46:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key47 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 312px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key47:hover {
+    background-color: aqua;
+}
+.key47:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key48 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 367px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key48:hover {
+    background-color: aqua;
+}
+.key48:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key49 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 422px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key49:hover {
+    background-color: aqua;
+}
+.key49:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key50 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 477px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key50:hover {
+    background-color: aqua;
+}
+.key50:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key51 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 532px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key51:hover {
+    background-color: aqua;
+}
+.key51:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key52 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 587px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key52:hover {
+    background-color: aqua;
+}
+.key52:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key53 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 642px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key53:hover {
+    background-color: aqua;
+}
+.key53:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key54 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 697px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key54:hover {
+    background-color: aqua;
+}
+.key54:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key55 {
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    margin-top: 178px;
+    margin-left: 752px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key55:hover {
+    background-color: aqua;
+}
+.key55:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key56 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 7px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key56:hover {
+    background-color: aqua;
+}
+.key56:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key57 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 62px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key57:hover {
+    background-color: aqua;
+}
+.key57:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key58 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 117px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key58:hover {
+    background-color: aqua;
+}
+.key58:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key59 {
+    position: absolute;
+    width: 405px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 172px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key59:hover {
+    background-color: aqua;
+}
+.key59:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key60 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 587px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key60:hover {
+    background-color: aqua;
+}
+.key60:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key61 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 642px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key61:hover {
+    background-color: aqua;
+}
+.key61:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key62 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 697px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key62:hover {
+    background-color: aqua;
+}
+.key62:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key63 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 752px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key63:hover {
+    background-color: aqua;
+}
+.key63:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+.key64 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 233px;
+    margin-left: 807px;
+    background-color: bisque;
+    color: black;
+    transition: 200ms;
+}
+.key64:hover {
+    background-color: aqua;
+}
+.key64:active {
+    background-color: greenyellow;
+    border-radius: 25%;
+}
+
+
